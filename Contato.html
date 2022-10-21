@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contatos</title>
+</head>
+
+<body>
+    <table id="titulo">
+        <thead>
+            <tr>
+                <th rowspan="3"><img src="img/Perfil.jpg" alt="Foto Perfil"></th>
+                <th id="nome" class="col">Carla Irene Ribeiro Franco</th>
+            </tr>
+            <tr>
+                <th id="profissao" class="col">&lt;Designer e Desenvolvedor Web></th>
+            </tr>
+        </thead>
+    </table>
+    <table>
+        <thead>
+            <ul>
+                <li><a href="Principal.html" id="naoacessado">Principal</a></li>
+                <li><a href="QuemSou.html" id="naoacessado">Quem Sou</a></li>
+                <li><a href="Projetos.html" id="naoacessado">Projetos</a></li>
+                <li><a href="Contato.html" id="acessado">Contato</a></li>
+            </ul>
+        </thead>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <h1 id="titulocontato">Entre em contato!</h1>
+                </th>
+            </tr>
+            <tr>
+                <td id="txtcontato">Preencha todos os campos do formulário a seguir e em até 48h lhe responderei. Será
+                    um prazer lhe atender!</td>
+            </tr>
+        </thead>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <td id="formulario">
+                    <p>
+                        <label for="slctAssunto">Assunto</label><br>
+                        <select name="Assunto" id="slctAssunto">
+                            <option value="Selecao">Selecione o assunto</option>
+                            <option value="Orcamento">Orçamento</option>
+                            <option value="Duvidas">Dúvidas</option>
+                            <option value="Reclamacoes">Reclamações</option>
+                            <option value="Sugestoes">Sugestões</option>
+                        </select>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td id="formulario">
+                    <p>
+                        <label for="txtNome">Nome</label><br>
+                        <input type="text" name="NomeCompleto" id="txtNome"
+                            placeholder="Digite aqui o seu nome completo">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td id="formulario">
+                    <p>
+                        <label for="email">E-mail</label><br>
+                        <input type="email" name="enderecoEmail" id="email" placeholder="contato@email.com">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td id="formulario">
+                    <p>
+                        <label for="telefone">Telefone</label><br>
+                        <input type="tel" name="telefone" pattern="[0-9](2) [0-9](5)-[0-9](4)" id="telefone"
+                            placeholder="(00) 99999-9999">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td id="formulario">
+                    <p>
+                        <label for="txtminibiografia">Mensagem</label><br>
+                        <textarea name="miniBiografia" id="txtmsg"></textarea>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input type="submit" value="Enviar" id="button">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 id="outroscontatos">Outras formas de contato:</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li id="residencia">Residente em Domingos Martins/ES</li><br>
+                        <li id="linkcontatos"><a href="https://mail.google.com">roncarcla18@gmail.com</a></li><br>
+                        <li id="residencia">(27) 99991-4216</li><br>
+                        <li id="linkcontatos"><a href="https://www.linkedin.com/in/carla-r-franco">Linkedin</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </thead>
+    </table>
+    <table id="rodapecontato">
+        <thead>
+            <tr>
+                <td>
+                    <p>Copyright © 2022</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="image"><img src="img/ifes.png" alt="LogoIFES"></td>
+            </tr>
+        </thead>
+    </table>
+
+</body>
+
+</html>
